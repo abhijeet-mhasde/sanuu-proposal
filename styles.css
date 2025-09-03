@@ -130,13 +130,27 @@ h2{font-size:22px;margin:6px 0}
 .video-container {
   display: flex;
   justify-content: center;
-  margin: 16px 0;
+  margin: 14px 0 6px 0;
 }
 
 .video-thumb {
-  width: 220px;
-  height: 140px;
+  width: 200px;
+  height: 120px;
   border-radius: 12px;
   object-fit: cover;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
 }
+
+.video-thumb:hover {
+  transform: scale(1.05);
+}
+
+.video-caption {
+  text-align: center;
+  font-size: 14px;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
