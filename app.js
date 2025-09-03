@@ -78,7 +78,8 @@ yesBtn.addEventListener('click', ()=>{
 const gallery = document.getElementById('gallery');
 const photos = [
   'assets/media/photo1.jpg','assets/media/photo2.jpg','assets/media/photo3.jpg',
-  'assets/media/photo4.jpg','assets/media/photo5.jpg','assets/media/photo6.jpg'
+  'assets/media/photo4.jpg','assets/media/photo5.jpg','assets/media/photo6.jpg',
+  'assets/media/photo7.jpg'
 ];
 photos.forEach(p=>{
   const d = document.createElement('div'); d.className='thumb';
