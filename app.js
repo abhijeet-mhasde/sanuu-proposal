@@ -99,3 +99,18 @@ musicToggle.addEventListener('click', ()=>{
 });
 
 show(0);
+
+const music = document.getElementById('bgMusic');
+
+// try to autoplay on load
+music.volume = 0.4; // soft volume
+music.play().catch(() => {
+  console.log("Autoplay blocked, will start on first interaction");
+});
+
+// unmute and play on first click/tap
+document.body.addEventListener('click', () => {
+  if (music.paused) {
+    music.play();
+  }
+}, { once: true });
