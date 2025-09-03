@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Sanuu — My Queen</title>
+<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="site">
+  <header class="site-header">
+    <div class="logo">Sanuu 💖</div>
+    <div class="audio-controls">
+      <button id="musicToggle" class="btn">Play Music</button>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section id="intro" class="panel active">
+      <h1>Sanuu, My Queen, My Forever</h1>
+      <p class="lead">Main zindagi bhar sirf tumhe chunta rahunga — har din, har lamha.</p>
+      <p class="sub">This is our story, made with love and dua — just for you.</p>
+      <div class="center">
+        <button id="startBtn" class="cta">Start Our Journey 💞</button>
+      </div>
+    </section>
+
+    <section id="story" class="panel">
+      <h2>Our Story — Yaadein</h2>
+      <div class="timeline" id="timeline"></div>
+      <div class="center">
+        <button data-next class="cta">Dekho, humari kahani...</button>
+      </div>
+    </section>
+
+    <section id="dreams" class="panel">
+      <h2>Dreams Together</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Home of Duas</h3>
+          <p>Our little home full of laughter, dua, and warm khana served with pyaar.</p>
+        </div>
+        <div class="card">
+          <h3>Aagaye baurahe?</h3>
+          <p>Every day I come home to your smile and that playful line — my peace.</p>
+        </div>
+        <div class="card">
+          <h3>Aafiya</h3>
+          <p>Imagine our daughter calling: "Baba Baba" — a tiny voice that will change our world.</p>
+        </div>
+      </div>
+      <div class="center">
+        <button data-next class="cta">Aur suno meri waade...</button>
+      </div>
+    </section>
+
+    <section id="promises" class="panel">
+      <h2>Promises — Waade</h2>
+      <div class="grid" id="promisesGrid"></div>
+      <div class="center">
+        <button data-next class="cta">Aur yaadein bhi hai na...</button>
+      </div>
+    </section>
+
+    <section id="chat" class="panel">
+      <h2>Chat — A memory</h2>
+      <div class="chatbox" id="chatbox"></div>
+      <div class="center">
+        <button data-next class="cta">Ab meri sabse badi baat...</button>
+      </div>
+    </section>
+
+    <section id="proposal" class="panel">
+      <h2>My One Question</h2>
+      <p class="lead">I can't pay kiraya with money — will you share your closet (and life) with me?</p>
+      <div class="center" style="gap:12px">
+        <button id="yesBtn" class="cta">Yes, Forever 💖</button>
+        <button id="nudgeBtn" class="btn">Hmm... Kiraya? 😉</button>
+      </div>
+      <div id="accepted" class="accepted" hidden>
+        <div class="confetti">🎉</div>
+        <h3>She said yes 💍</h3>
+        <p>Thank you for saying yes. I'll spend the rest of my life making sure that was the easiest decision you ever made. — Abhijeet</p>
+      </div>
+    </section>
+
+    <section id="forever" class="panel">
+      <h2>Our Forever</h2>
+      <p>Tum meri dua ka jawaab ho, aur meri zindagi ka sabse khoobsurat hissa.</p>
+      <div class="gallery" id="gallery"></div>
+      <div class="center"><button id="replay" class="btn">Replay Journey</button></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Made with dua, courage, and way too many butterflies — Abhijeet ❤️
+  </footer>
+</div>
+
+<audio id="bgMusic" loop src="assets/media/music.mp3"></audio>
+<script src="app.js"></script>
+</body>
+</html>
