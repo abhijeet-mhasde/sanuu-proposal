@@ -126,3 +126,17 @@ h2{font-size:22px;margin:6px 0}
   margin-top:8px;
 }
 @keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.video-thumb {
+  width: 220px;
+  height: 140px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
