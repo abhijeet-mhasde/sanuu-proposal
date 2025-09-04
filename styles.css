@@ -173,8 +173,8 @@ h2{font-size:22px;margin:6px 0}
 }
 
 .video-thumb {
-  width: 200px;
-  height: 120px;
+/*   width: 200px;
+  height: 120px; */
   border-radius: 12px;
   object-fit: cover;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
